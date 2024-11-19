@@ -39,9 +39,14 @@ DemoWithMongoDB
 │   │   │       └───document-view.fxml
 ```
 
+### Cloning the Repository
+
+1. Clone this repository using the following command:
+   ```bash
+   git clone https://github.com/gitober/DemoWithMongoDB.git
+
 ### Setup
 
-1. Clone this repository and open it in your IDE.
 2. Create a `.env` file in the project root and add the following configurations to connect to your MongoDB instance:
    ```
    MONGO_URI=your_cluster_uri
